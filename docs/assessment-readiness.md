@@ -33,7 +33,7 @@ This checklist maps the delivered Nexora project to the assessment requirements.
 
 ## Submission Checklist
 
-- Replace the README live-demo placeholder with the deployed Vercel URL.
+- Live deployment: https://nexora-digital-app.vercel.app/
 - Configure every `.env.example` variable in Vercel.
 - Set `NEXT_PUBLIC_SITE_URL` to the deployed HTTPS URL before the final deployment.
 - Verify one live Gemini answer after deployment; restricted local environments may block the outbound Gemini request and use the built-in fallback.

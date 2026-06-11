@@ -8,15 +8,16 @@ It was developed as a practical full-stack implementation for the Clickseon Web 
 
 ## Links
 
-- **Live website:** Add the deployed Vercel URL after deployment
+- **Live website:** [nexora-digital-app.vercel.app](https://nexora-digital-app.vercel.app/)
 - **GitHub repository:** [github.com/Vibudh08/Nexora](https://github.com/Vibudh08/Nexora)
-- **Admin dashboard:** `/admin/leads`
+- **Admin dashboard:** [nexora-digital-app.vercel.app/admin/leads](https://nexora-digital-app.vercel.app/admin/leads)
+- **Admin credentials:** - Username - admin, Password- NexoraAdmin
 
 ## Submission Deliverables
 
 | Requirement | Deliverable |
 | --- | --- |
-| Live website link | Add the final Vercel URL after deployment |
+| Live website link | [nexora-digital-app.vercel.app](https://nexora-digital-app.vercel.app/) |
 | GitHub repository | [github.com/Vibudh08/Nexora](https://github.com/Vibudh08/Nexora) |
 | Project documentation | This README explains the technology decisions, architecture, API flows, AI, automation, SEO, security, setup, and deployment |
 | Automation evidence | Workflow diagrams are available in [docs/automation-workflow.md](docs/automation-workflow.md) |
@@ -437,10 +438,9 @@ The recommended deployment target is Vercel.
 
 1. Import the GitHub repository into Vercel.
 2. Add every variable from `.env.example` to the Vercel project settings.
-3. Set `NEXT_PUBLIC_SITE_URL` to the final Vercel HTTPS URL.
+3. Set `NEXT_PUBLIC_SITE_URL` to `https://nexora-digital-app.vercel.app`.
 4. Deploy the application.
 5. Verify the lead form, email delivery, Gemini response, Razorpay Test Mode flow, and admin dashboard on the live deployment.
-6. Replace the live website placeholder at the top of this README.
 
 ## Key Engineering Decisions
 
